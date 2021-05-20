@@ -12,5 +12,6 @@ func main() {
 			"MSG": "PONG",
 		})
 	})
+
 	router.Run(":8082")
 }

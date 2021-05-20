@@ -1,11 +1,11 @@
-package service_common
+package service
 
 import (
+	"fmt"
+
 	"github.com/gin-gonic/gin"
 )
 
-func state(c *gin.Context) {
-	c.JSON(200, gin.H{
-		"MSG": "PONG",
-	})
+func State(c *gin.Context) {
+	fmt.Println("hello wold")
 }
